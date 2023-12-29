@@ -1,7 +1,6 @@
 ---
 packages_to_remove:
   - cheese
-  - evolution
   - gnome-games
   - gnome-music
   - gnome-sound-recorder
@@ -52,7 +51,6 @@ packages_to_install:
   - shfmt
   - stow
   - tesseract-ocr
-  - thunderbird
   - tldr
   - trash-cli
   - wl-clipboard
