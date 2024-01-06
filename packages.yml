@@ -7,11 +7,12 @@ packages_to_remove:
   - rhythmbox
   - totem
 packages_to_install:
-  - adb
-  - android-sdk-platform-tools-common
+  # Simon
+  - easyeffects
+  - remmina
+  # David
   - bat
   - black
-  - blender
   - borgbackup
   - build-essential
   - curl
@@ -26,7 +27,6 @@ packages_to_install:
   - gnome-shell-pomodoro
   - gnome-software-plugin-flatpak
   - gnome-tweaks
-  - handbrake
   - heif-gdk-pixbuf
   - heif-thumbnailer
   - imagemagick
@@ -58,10 +58,15 @@ packages_to_install:
   - zathura
   - zoxide
 flatpak_packages:
+  # Simon
+  - com.github.IsmaelMartinez.teams_for_linux
+  - org.freeplane.App
+  - flathub com.spotify.Client
+  - com.valvesoftware.Steam
+  # David
   - com.github.Eloston.UngoogledChromium
   - com.github.tchx84.Flatseal
   - com.obsproject.Studio
-  - com.obsproject.Studio.Plugin.DroidCam
   - com.obsproject.Studio.Plugin.MoveTransition
   - org.signal.Signal
 npm_packages:
